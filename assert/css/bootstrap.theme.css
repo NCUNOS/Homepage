@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Noto Sans CJK TC Light');
+}
+
+html, body {
+	font-family: 'Noto Sans', 'Source Han Sans',
+	'Noto Sans CJK TC', 'Source Han Sans TC',
+	'Helvetica Neue', Helvetica,
+	'Microsoft Jhenghei', 'Hiragino Sans GB',
+	serif;
+	font-size: 16px;
+}
+
+nav.navbar {
+	background: white;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-default .navbar-nav>li>a {
+	padding-bottom: 13px;
+	border-bottom: 2px solid transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #222;
+	border-bottom: 2px solid #2ecc40;
+}
+
+.navbar-default .navbar-nav>li>a.active {
+	border-bottom: 2px solid #2ecc40;
+}
+
+.navbar-default .navbar-toggle:focus {
+	background: transparent;
+}
+.navbar-default .navbar-toggle.active {
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.navbar-fluid>li {
+	float: left !important;
+}
+
+footer {
+	padding: 15px 0;
+}
+
+.card {
+	padding: 10px;
+	margin-bottom: 12px;
+	width: 216px;
+	text-align: center;
+	border: 1px solid #d4d4d5;
+	border-radius: 4px;
+	box-shadow: 0 3px 0 #d4d4d5;
+}
+
+.masonry-grid-sizer {
+	width: 216px;
+}
+
+.masonry-gutter-sizer {
+	width: 12px;
+}
