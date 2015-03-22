@@ -15,6 +15,10 @@ html, body {
 	font-size: 16px;
 }
 
+img {
+	max-width: 100%;
+}
+
 nav.navbar {
 	background: white;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -51,15 +55,22 @@ footer {
 }
 
 .card {
-	padding: 12px 6px;
-	margin-bottom: 24px;
-	width: 206px;
-	text-align: center;
 	background: white;
 	border: 1px solid #d4d4d5;
 	border-radius: 4px;
 	transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.page-abouts .card {
+	padding: 12px 6px;
+	margin-bottom: 24px;
+	width: 206px;
+	text-align: center;
+}
+
+.page-projects .card {
+	width: 290px;
 }
 
 .card:hover, .card:focus {
