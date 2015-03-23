@@ -99,8 +99,8 @@ footer {
 
 .flag img {
 	position: absolute;
-	right: 0px;
-	top: 0px;
+	right: -1px;
+	top: -1px;
 	z-index: 100;
 	border: none;
 }
