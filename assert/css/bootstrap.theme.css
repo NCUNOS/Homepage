@@ -68,8 +68,19 @@ footer {
 	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
 }
 
+.card .btn {
+	color: #3c763d;
+	border: none;
+	border-radius: 0;
+}
+
+.card .btn:hover {
+	color: #5cb85c;
+	color: #4cae4c;
+}
+
 .page-abouts .card {
-	padding: 12px 6px;
+	padding: 12px 0 0;
 	width: 206px;
 }
 
