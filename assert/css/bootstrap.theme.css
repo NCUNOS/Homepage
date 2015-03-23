@@ -88,8 +88,10 @@ footer {
 	width: 290px;
 }
 
+@media (min-width: 768px) {
 .page-projects .card.card-2x {
 	width: 604px;
+}
 }
 
 .page-abouts .masonry-grid-sizer {
