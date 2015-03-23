@@ -7,7 +7,8 @@ jQuick.ready(function () {
 			var Target = Sizzle(Button.getAttribute('data-target'))[0];
 
 			jQuick.on(Button, 'click', (function(Button, Target) {
-				return function () {
+				return function (evt) {
+					evt.preventDefault();
 					var Opened = jQuick.element.hasClass(Button, 'active');
 					if (Opened) {
 						jQuick.element.addClass(Target, 'collapse');
