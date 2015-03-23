@@ -17,6 +17,14 @@ jQuick.ready(function () {
 						jQuick.element.removeClass(Target, 'collapse');
 						jQuick.element.addClass(Button, 'active');
 					}
+					var MasonryContainer = Target;
+					while (MasonryContainer != document) {
+						if (typeof MasonryContainer.masonry != "undefined") {
+							MasonryContainer.masonry.layout();
+							break;
+						}
+						MasonryContainer = MasonryContainer.parentElement;
+					}
 				};
 			})(Button, Target));
 		}

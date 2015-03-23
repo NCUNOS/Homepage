@@ -1,0 +1,56 @@
+/* Abouts
+ *     ,.   .           .      
+ *    / |   |-. ,-. . . |- ,-. 
+ *   /~~|-. | | | | | | |  `-. 
+ * ,'   `-' ^-' `-' `-^ `' `-'  */
+
+.page-abouts .card {
+	padding: 12px 0 0;
+	width: 206px;
+}
+
+.page-abouts .masonry-grid-sizer {
+	width: 206px;
+}
+
+/* Courses
+ *  ,--.                         
+ * | `-' ,-. . . ,-. ,-. ,-. ,-. 
+ * |   . | | | | |   `-. |-' `-. 
+ * `--'  `-' `-^ '   `-' `-' `-' */
+
+.page-courses .card {
+	width: 210px;
+}
+
+@media (min-width: 768px) {
+	.page-courses .card.card-2x {
+		width: 444px;
+	}
+}
+
+.page-courses .masonry-grid-sizer {
+	width: 210px;
+}
+
+/* Projects
+ * .-,--.                   .      
+ *  '|__/ ,-. ,-. . ,-. ,-. |- ,-. 
+ *  ,|    |   | | | |-' |   |  `-. 
+ *  `'    '   `-' | `-' `-' `' `-' 
+ *                |                
+ *               `'                 */
+
+.page-projects .card {
+	width: 290px;
+}
+
+@media (min-width: 768px) {
+	.page-projects .card.card-2x {
+		width: 604px;
+	}
+}
+
+.page-projects .masonry-grid-sizer {
+	width: 290px;
+}

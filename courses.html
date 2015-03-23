@@ -29,7 +29,7 @@
 		<script type="text/javascript" src="/assert/js/bootstrap.collapse.alternative.js"></script>
 		<script type="text/javascript" src="/assert/js/masonry.js"></script>
 	</head>
-	<body class="page-projects">
+	<body class="page-courses">
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
@@ -43,8 +43,8 @@
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-items">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="/courses.html">課程</a></li>
-						<li><a href="/projects.html" class="active">專案</a></li>
+						<li><a href="/courses.html" class="active">課程</a></li>
+						<li><a href="/projects.html">專案</a></li>
 						<li><a href="/events.html">活動</a></li>
 						<li><a href="http://www.nos.ncu.edu.tw/wordpress" target="_blank">部落格</a></li>
 						<li><a href="/abouts.html">關於</a></li>
@@ -58,69 +58,77 @@
 			</div>
 		</nav>
 		<div class="container" style="padding-top: 50px;">
-			<h1>Projects</h1>
-			<h2>2015、<br \>當校園繼續轉動。</h2>
+			<h1>Courses</h1>
+			<h2>104、<br \>大開源時代來了。</h2>
 			<div class="masonry-container">
 				<div class="masonry-grid-sizer"></div>
 				<div class="masonry-gutter-sizer"></div>
-				<div class="item card card-2x">
-					<div class="flag">
-						<img src="/assert/images/flag_construction.png" />
-					</div>
-					<img src="/assert/images/project_21g.png" />
+				<div class="item card">
+					<!-- <img src="/assert/images/project_account.png" /> -->
+					<h3>Rails 起步走<small>暫定</small></h3>
+					<h4>Davy</h4>
 					<div class="btn-group btn-group-lg btn-group-justified" role="group">
-						<a class="btn" href="https://github.com/NCUNOS/two_one_kr" target="_blank"><i class="fa fa-github"></i></a>
+						<a class="btn disabled" href="#" onclick="return false;" target="_blank">等待講師提供資料</a>
+					</div>
+				</div>
+				<div class="item card">
+					<h3>開放授權<small>暫定</small></h3>
+					<h4>RSChiang</h4>
+					<div class="btn-group btn-group-lg btn-group-justified" role="group">
+						<a class="btn disabled" href="#" onclick="return false;" target="_blank">等待講師提供資料</a>
 					</div>
 				</div>
 			</div>
-			<h2>2014、<br \>讓我們回到起點。</h2>
+			<h2>103、<br \>向應用拓展。</h2>
 			<div class="masonry-container">
 				<div class="masonry-grid-sizer"></div>
 				<div class="masonry-gutter-sizer"></div>
 				<div class="item card">
-					<a href="http://identity.nos.ncu.edu.tw/account" target="_blank">
-						<img src="/assert/images/project_account.png" />
-					</a>
+					<h3>Python 讀書會</h3>
+					<h4>伊達 feat. 讀書會成員</h4>
 					<div class="btn-group btn-group-lg btn-group-justified" role="group">
-						<a class="btn" href="https://github.com/NCUNOS/Account-System" target="_blank"><i class="fa fa-github"></i></a>
-						<a class="btn" href="http://identity.nos.ncu.edu.tw/account" target="_blank"><i class="fa fa-globe"></i></a>
+						<a class="btn" href="#" onclick="return false;" data-toggle="collapse" data-target="#course-103-python-info"><i class="fa fa-info"></i></a>
+					</div>
+					<div id="course-103-python-info" class="collapse" style="padding: 5px 0;">
+						<a href="https://nos.hackpad.com/Day1-20141014-44GgwMv1rgK"><i class="fa fa-file-text-o fa-fw"></i>Day1 2014/10/14</a><br />
+						<a href="https://nos.hackpad.com/Day2-20141021-9fE65IizGhv"><i class="fa fa-file-text-o fa-fw"></i>Day2 2014/10/21</a><br />
+						<a href="https://nos.hackpad.com/Day3-20141028-1BAfL2T6LQC"><i class="fa fa-file-text-o fa-fw"></i>Day3 2014/10/28</a><br />
+						<a href="https://nos.hackpad.com/Day4-20141104-4hVMCx1DJQN"><i class="fa fa-file-text-o fa-fw"></i>Day4 2014/11/04</a><br />
+						<a href="https://nos.hackpad.com/Day5-20141125-bKgqI2A6v5k"><i class="fa fa-file-text-o fa-fw"></i>Day5 2015/11/25</a><br />
 					</div>
 				</div>
 				<div class="item card">
-					<a href="https://play.google.com/store/apps/details?id=tw.edu.ncu.nos.ncuwlpp" target="_blank">
-						<img src="/assert/images/project_ncuwlpp.png" />
-					</a>
+					<h3>Android APP 教學</h3>
+					<h4>達人</h4>
 					<div class="btn-group btn-group-lg btn-group-justified" role="group">
-						<a class="btn" href="https://github.com/NCUNOS/NCUWirelessPassport" target="_blank"><i class="fa fa-github"></i></a>
-						<a class="btn" href="https://play.google.com/store/apps/details?id=tw.edu.ncu.nos.ncuwlpp" target="_blank"><i class="fa fa-android"></i></a>
+						<a class="btn" href="http://www.cc.ncu.edu.tw/announcement/view/?id=551" target="_blank"><i class="fa fa-info"></i></a>
+						<a class="btn" href="http://tatsujin.m.candytan.org:8080/?p=124" target="_blank"><i class="fa fa-book"></i></a>
 					</div>
 				</div>
 				<div class="item card">
-					<a href="#" onclick="Sizzle('[data-toggle=\'collapse\'][data-target=\'#project-motd-info\']')[0].click(); return false;">
-						<img src="/assert/images/project_motd.png" />
-					</a>
+					<h3>四軸讀書會</h3>
+					<h4>Stanley</h4>
 					<div class="btn-group btn-group-lg btn-group-justified" role="group">
-						<a class="btn" href="https://github.com/NCUNOS/MOTD" target="_blank"><i class="fa fa-github"></i></a>
-						<a class="btn" href="#" onclick="return false;" data-toggle="collapse" data-target="#project-motd-info">
-							<span class="fa-stack" style="font-size: 1em; line-height: 1.2em; width: auto; height: auto;">
-								<i class="fa fa-square" style="font-size: 1.2em;"></i>
-								<i class="fa fa-terminal fa-stack-1x fa-inverse" style="font-size: 0.6em;"></i>
-							</span>
-						</a>
+						<a class="btn disabled" href="#" onclick="return false;" target="_blank">等待講師提供資料</a>
 					</div>
-					<div id="project-motd-info" class="collapse" style="padding: 5px 0;">
-						請連至工作站直接體驗！<br />
-						<a href="ssh://linux1.nos.ncu.edu.tw">linux1.nos.ncu.edu.tw</a><br />
-						<a href="ssh://bsd1.nos.ncu.edu.tw">bsd1.nos.ncu.edu.tw</a><br />
+				</div>
+			</div>
+			<h2>102、<br \>從基礎出發。</h2>
+			<div class="masonry-container">
+				<div class="masonry-grid-sizer"></div>
+				<div class="masonry-gutter-sizer"></div>
+				<div class="item card">
+					<h3>網頁前端技術</h3>
+					<h4>偷比／Davy</h4>
+					<div class="btn-group btn-group-lg btn-group-justified" role="group">
+						<a class="btn disabled" href="#" onclick="return false;" target="_blank">等待講師提供資料</a>
 					</div>
 				</div>
 				<div class="item card">
-					<a href="http://rubygems.nos.ncu.edu.tw/" target="_blank">
-						<img src="/assert/images/project_rubygems.png" />
-					</a>
+					<h3>網路系統組<br />基礎教程</h3>
+					<h4>Kir</h4>
 					<div class="btn-group btn-group-lg btn-group-justified" role="group">
-						<a class="btn" href="https://github.com/NCUNOS/rubygems-mirror" target="_blank"><i class="fa fa-github"></i></a>
-						<a class="btn" href="http://rubygems.nos.ncu.edu.tw/" target="_blank"><i class="fa fa-globe"></i></a>
+						<a class="btn disabled" href="#" onclick="return false;" target="_blank">等待講師提供資料</a>
 					</div>
 				</div>
 			</div>

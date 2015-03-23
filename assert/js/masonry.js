@@ -6,6 +6,7 @@ jQuick.ready(function () {
 			gutter: '.masonry-gutter-sizer',
 			itemSelector: '.item'
 		});
+		Containers[i].masonry = msnry;
 		imagesLoaded(Containers[i], (function (msnry) {
 			return function() {
 				msnry.layout();

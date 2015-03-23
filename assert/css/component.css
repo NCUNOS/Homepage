@@ -1,0 +1,49 @@
+/* Card
+ *  ,--.           . 
+ * | `-' ,-. ,-. ,-| 
+ * |   . ,-| |   | | 
+ * `--'  `-^ '   `-^ */
+
+.card {
+	text-align: center;
+	background: white;
+	border: 1px solid #d4d4d5;
+	border-radius: 4px;
+	margin-bottom: 24px;
+	transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.card:hover, .card:focus {
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .btn {
+	color: #3c763d;
+	border: none;
+	border-radius: 0;
+}
+
+.card .btn:hover {
+	color: #4cae4c;
+}
+
+/* Flag
+ * .-,--' .          
+ *  \|__  |  ,-. ,-. 
+ *   |    |  ,-| | | 
+ *  `'    `' `-^ `-| 
+ *                ,| 
+ *                `' */
+
+.flag {
+	position: relative;
+}
+
+.flag img {
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	z-index: 100;
+	border: none;
+}
