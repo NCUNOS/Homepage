@@ -12,5 +12,17 @@ jQuick.ready(function () {
 				msnry.layout();
 			};
 		})(msnry));
+
+		var Toggles = Sizzle("[data-masonry-target][data-masonry-class]", Containers[i]);
+		for (var j = 0; j < Toggles.length; j += 1) {
+			var Target = Sizzle(Toggles[j].getAttribute('data-masonry-target'))[0];
+			var Clazz = Toggles[j].getAttribute('data-masonry-class');
+			jQuick.on(Toggles[j], 'click', (function (msnry, target, clazz) {
+				return function() {
+					jQuick.element.toggleClass(target, clazz);
+					msnry.layout();
+				};
+			})(msnry, Target, Clazz));
+		}
 	}
 });
