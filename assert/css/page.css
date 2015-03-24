@@ -24,17 +24,17 @@
  * `--'  `-' `-^ '   `-' `-' `-' */
 
 .page-courses .card {
-	width: 210px;
+	width: 208px;
 }
 
 @media (min-width: 768px) {
 	.page-courses .card.card-2x {
-		width: 444px;
+		width: 440px;
 	}
 }
 
 .page-courses .masonry-grid-sizer {
-	width: 210px;
+	width: 208px;
 }
 
 /* Projects
