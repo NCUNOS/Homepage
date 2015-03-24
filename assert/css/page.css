@@ -37,6 +37,47 @@
 	width: 208px;
 }
 
+/* Events
+ * `.---              .          
+ *  |__  .  , ,-. ,-. |- ,-.     
+ * ,|    | /  |-' | | |  `-.     
+ * `^--- `'   `-' ' ' `' `-' */
+
+@media (max-width: 767px) {
+	.page-events .masonry-container {
+		margin-right: 0;
+	}
+}
+
+.page-events .card {
+	width: 100%;
+}
+
+.page-events .masonry-grid-sizer {
+	width: 208px;
+}
+
+@media (min-width: 768px) {
+	.page-events .card,
+	.page-events .masonry-grid-sizer {
+		width: 360px;
+	}
+}
+
+@media (min-width: 992px) {
+	.page-events .card,
+	.page-events .masonry-grid-sizer {
+		width: 305px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.page-events .card,
+	.page-events .masonry-grid-sizer {
+		width: 372px;
+	}
+}
+
 /* Projects
  * .-,--.                   .      
  *  '|__/ ,-. ,-. . ,-. ,-. |- ,-. 
