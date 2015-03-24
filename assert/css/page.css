@@ -9,6 +9,10 @@
 	width: 206px;
 }
 
+.page-abouts .card img {
+	max-width: 180px;
+}
+
 .page-abouts .masonry-grid-sizer {
 	width: 206px;
 }

@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot');
+	src: url('../fonts/icomoon.eot') format('embedded-opentype'),
+	     url('../fonts/icomoon.woff') format('woff'),
+	     url('../fonts/icomoon.ttf') format('truetype'),
+	     url('../fonts/icomoon.svg') format('svg');
+	unicode-range: U+F197-F199;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.fa.fa-plurk,
+.fa.fa-pixiv,
+.fa.fa-soundcloud {
+	font-family: icomoon;
+}
+
+.fa-plurk:before {
+	content: "\f197";
+}
+.fa-pixiv:before {
+	content: "\f198";
+}
+.fa-soundcloud:before {
+	content: "\f199";
+}

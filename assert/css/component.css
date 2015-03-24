@@ -22,6 +22,8 @@
 	color: #3c763d;
 	border: none;
 	border-radius: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .card .btn:hover {
